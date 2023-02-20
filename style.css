@@ -1,0 +1,11 @@
+.nombre{
+    border: black solid 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 2rem;
+}
+.nombres{
+    display: flex;
+
+}
