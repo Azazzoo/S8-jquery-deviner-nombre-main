@@ -1,11 +1,41 @@
+
 .nombre{
     border: black solid 1px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    max-width: 2rem;
+    width: 2rem;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+.container{
+    width: 900px;
+    height: auto;
+
 }
 .nombres{
     display: flex;
-
+    flex-wrap: wrap;
 }
+.wrong{
+    background-color: red;
+    color: #fff;
+    padding: .25rem;
+}
+.winner{
+    background-color: green;
+    border: green solid 1px;
+    color: #fff;
+}
+.flex{
+    display: flex;
+}
+.reponse{
+    padding: 5px;
+}
+.invisible{
+    display: none;
+}
+
+
